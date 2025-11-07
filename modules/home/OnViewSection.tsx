@@ -3,16 +3,16 @@ import Link from "next/link";
 
 const OnViewSection = () => {
   return (
-    <section className="py-4 pb-16">
+    <section className="py-2 pb-16">
       <div className="mx-auto w-full max-w-screen-xl-nopad px-4">
         <Link
           href="/"
-          className="text-[#111] md:text-[35px] text-[30px] font-bold"
+          className="text-[#111] md:text-[35px] text-[30px] font-bold minion-pro-condensed"
         >
           On View
         </Link>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-10 mt-5">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-9 mt-5">
           <div>
             <div className="relative group cursor-pointer">
               <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff90] opacity-0 group-hover:opacity-100 duration-300 "></div>
@@ -25,7 +25,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Richard Prince <br /> Folk Songs
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -48,7 +48,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Richard Serra <br /> Running Arcs (For John Cage), 1992
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -71,7 +71,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Christopher Wool
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -95,7 +95,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Ed Ruscha <br />
                   Says I, to Myself, Says I
                 </Link>
@@ -120,7 +120,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Brice Marden <br />
                   Etched Letters
                 </Link>
@@ -145,7 +145,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Albert Oehlen <br />
                   Endless Summer
                 </Link>
@@ -169,7 +169,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Ed Ruscha <br />
                   Talking Doorways
                 </Link>
@@ -194,7 +194,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Walter De Maria <br />
                   The Singular Experience
                 </Link>
@@ -218,7 +218,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Urs Fischer <br />
                   After Nature
                 </Link>
@@ -242,7 +242,7 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6">
+                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
                   Stanley Whitney <br />
                   Return to the Garden
                 </Link>

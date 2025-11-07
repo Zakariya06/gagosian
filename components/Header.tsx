@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 bg-white py-px border-b border-gray-300 transition-all duration-300 lg:px-4`}
+      className={`sticky top-0 w-full z-50 bg-white  border-b border-gray-300 transition-all duration-300 lg:px-4`}
     >
       <div className="mx-auto w-full max-w-screen-xl-nopad px-4">
         <div className="flex lg:items-center items-start lg:flex-row flex-col-reverse justify-between gap-1">
@@ -36,7 +36,7 @@ export default function Header() {
             >
               <Link
                 href="/"
-                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 whitespace-nowrap"
+                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 h-9 whitespace-nowrap"
               >
                 Gagosian
               </Link>
@@ -60,7 +60,7 @@ export default function Header() {
               <li key={item.label} className="mr-[25px] last:mr-0">
                 <Link
                   href={item.href}
-                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9"
+                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9 h-9"
                 >
                   {item.label}
                 </Link>

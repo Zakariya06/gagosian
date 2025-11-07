@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css"; 
+import "@/public/fonts/fonts.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Gagosian",
@@ -14,14 +15,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
+        {/* <link
           href="https://fonts.cdnfonts.com/css/minion-pro"
           rel="stylesheet"
         ></link>
         <link
           href="https://fonts.cdnfonts.com/css/times-new-roman"
           rel="stylesheet"
-        ></link>
+        ></link> */}
       </head>
       <body className={`antialiased`}>{children}</body>
     </html>
