@@ -107,3 +107,13 @@ body {
   font-family: "Minion Pro Condensed", serif !important;
   font-weight: 700 !important;
 }
+
+.type-gh-lg {
+  -moz-font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.navLink {
+  display: block;
+  transform: scaleY(0.95);
+}

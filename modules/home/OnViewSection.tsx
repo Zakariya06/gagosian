@@ -7,25 +7,28 @@ const OnViewSection = () => {
       <div className="mx-auto w-full max-w-screen-xl-nopad px-4">
         <Link
           href="/"
-          className="text-[#111] md:text-[35px] text-[30px] font-bold minion-pro-condensed"
+          className="text-[#111] md:text-[34px] text-[30px] scale-y-95 block font-bold minion-pro-condensed"
         >
           On View
         </Link>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-9 mt-5">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 gap-9 mt-5">
           <div>
             <div className="relative group cursor-pointer">
               <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff90] opacity-0 group-hover:opacity-100 duration-300 "></div>
               <Image
                 src="/media/images/exhibitions/2025/richard-prince-folk-songs/eC-zpfV6o3vX_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[68%]  h-auto"
+                className="w-[67%]  h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Richard Prince <br /> Folk Songs
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -48,7 +51,10 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Richard Serra <br /> Running Arcs (For John Cage), 1992
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -65,13 +71,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/christopher-wool/vwzbeK6Z0k7U_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[65%]  h-auto"
+                className="w-[62%]  h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Christopher Wool
                 </Link>
                 <p className="mt-2 text-lg leading-5 font-normal">
@@ -89,13 +98,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/ed-ruscha-says-i-to-myself-says-i/oCqsqWiadjHR_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[90%]  h-auto"
+                className="w-[88%]  h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Ed Ruscha <br />
                   Says I, to Myself, Says I
                 </Link>
@@ -114,13 +126,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/brice-marden-etched-letters/IDeLv7jKZKC5_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[85%]  h-auto"
+                className="w-[80%]  h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Brice Marden <br />
                   Etched Letters
                 </Link>
@@ -145,7 +160,10 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Albert Oehlen <br />
                   Endless Summer
                 </Link>
@@ -163,13 +181,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/ed-ruscha-talking-doorways/WHgtqamGGf7o_1200x1200.jpg"
                 alt="richard prince flok songs"
-                className="w-full h-auto"
+                className="w-[95%] h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Ed Ruscha <br />
                   Talking Doorways
                 </Link>
@@ -194,7 +215,10 @@ const OnViewSection = () => {
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Walter De Maria <br />
                   The Singular Experience
                 </Link>
@@ -212,13 +236,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/urs-fischer-after-nature/y8xhezAgSwr1_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[80%] h-auto"
+                className="w-[92%] h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Urs Fischer <br />
                   After Nature
                 </Link>
@@ -236,13 +263,16 @@ const OnViewSection = () => {
               <Image
                 src="/media/images/exhibitions/2025/stanley-whitney-return-to-the-garden/JJz4pkmSOmx1_600x600.jpg"
                 alt="richard prince flok songs"
-                className="w-[90%] h-auto"
+                className="w-[80%] h-auto"
                 width={1920}
                 height={1080}
               />
 
               <div className="pt-4 text-[#111]">
-                <Link href="/" className="text-2xl font-bold  leading-6 minion-pro-condensed ">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
                   Stanley Whitney <br />
                   Return to the Garden
                 </Link>

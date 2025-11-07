@@ -52,8 +52,8 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="relative w-full h-[calc(100vh-40px)] overflow-hidden">
-      <h2 className="text-[50px] lg:text-[60px] font-bold leading-12 absolute left-0 top-0 z-10 p-4 md:p-8 md:py-6 lg:p-8 xl:pl-8 xl:pt-8 uppercase GagosianHeadline text-white">
+    <div className="relative w-full h-[calc(100vh-50px)] overflow-hidden">
+      <h2 className="text-[50px] lg:text-[60px] font-bold leading-12 absolute left-0 top-0 z-10 p-4 md:p-8 md:py-6 lg:p-8 xl:pl-6 xl:pt-8 uppercase GagosianHeadline text-white tracking-[0.5px]  type-gh-lg">
         gagosian
       </h2>
       <Swiper
@@ -63,7 +63,7 @@ export default function HeroSection() {
         }}
         loop={true}
         className="h-full w-full"
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        // autoplay={{ delay: 5000, disableOnInteraction: false }}
         grabCursor
       >
         {slides.map((slide) => (
@@ -96,7 +96,7 @@ export default function HeroSection() {
                   {slide.title}
                 </h2>
                 {slide.subtitle && (
-                  <h3 className="text-[30px] md:text-[35px] mt-3 font-bold">
+                  <h3 className="text-[30px] md:text-[34px] mt-1 font-bold minion-pro-condensed">
                     {slide.subtitle}
                   </h3>
                 )}
@@ -106,7 +106,7 @@ export default function HeroSection() {
 
                 <Link
                   href={slide.link}
-                  className={`inline-block border border-transparent px-2.5 py-1 mt-5 text-lg duration-200  tracking-wide transition-colors GTAmerica ${
+                  className={`inline-block border border-transparent px-2 py-1 mt-5 text-lg duration-200  tracking-wide transition-colors GTAmerica ${
                     slide.theme === "dark"
                       ? "hover:border-white text-black bg-white hover:bg-black hover:text-white"
                       : "hover:border-white text-black bg-white hover:bg-black hover:text-white"

@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 bg-white  border-b border-gray-300 transition-all duration-300 lg:px-4`}
+      className={`sticky top-0 w-full z-50 bg-white flex items-center justify-center flex-col h-9  border-b border-gray-300 transition-all duration-300 lg:px-4 `}
     >
       <div className="mx-auto w-full max-w-screen-xl-nopad px-4">
         <div className="flex lg:items-center items-start lg:flex-row flex-col-reverse justify-between gap-1">
@@ -60,7 +60,7 @@ export default function Header() {
               <li key={item.label} className="mr-[25px] last:mr-0">
                 <Link
                   href={item.href}
-                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9 h-9"
+                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9 h-9  navLink"
                 >
                   {item.label}
                 </Link>
