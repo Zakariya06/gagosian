@@ -31,7 +31,7 @@ const OnViewSection = () => {
                 >
                   Richard Prince <br /> Folk Songs
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   November 6–December 20,2025 <br /> 555 West 24th Street, New
                   York
                 </p>
@@ -57,7 +57,7 @@ const OnViewSection = () => {
                 >
                   Richard Serra <br /> Running Arcs (For John Cage), 1992
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   September 12–December 20, 2025 <br /> West 21st Street, New
                   York
                 </p>
@@ -83,7 +83,7 @@ const OnViewSection = () => {
                 >
                   Christopher Wool
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 13–December 19, 2025
                   <br />
                   Grosvenor Hill, London
@@ -112,7 +112,7 @@ const OnViewSection = () => {
                   Says I, to Myself, Says I
                 </Link>
 
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 14–December 19, 2025 <br />
                   Davies Street, London
                 </p>
@@ -140,7 +140,7 @@ const OnViewSection = () => {
                   Etched Letters
                 </Link>
 
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 10–November 29, 2025 <br />
                   Burlington Arcade, London
                 </p>
@@ -167,7 +167,7 @@ const OnViewSection = () => {
                   Albert Oehlen <br />
                   Endless Summer
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 20–December 20, 2025 <br />
                   rue de Ponthieu, Paris
                 </p>
@@ -195,7 +195,7 @@ const OnViewSection = () => {
                   Talking Doorways
                 </Link>
 
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 22–December 3, 2025 <br />
                   rue de Castiglione, Paris
                 </p>
@@ -222,7 +222,7 @@ const OnViewSection = () => {
                   Walter De Maria <br />
                   The Singular Experience
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 19, 2025–April 18, 2026 <br />
                   Le Bourget
                 </p>
@@ -249,7 +249,7 @@ const OnViewSection = () => {
                   Urs Fischer <br />
                   After Nature
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   September 17–November 22, 2025 <br />
                   Rome
                 </p>
@@ -276,7 +276,7 @@ const OnViewSection = () => {
                   Stanley Whitney <br />
                   Return to the Garden
                 </Link>
-                <p className="mt-2 text-lg leading-5 font-normal">
+                <p className="mt-2 text-base leading-5 font-light font-serif">
                   October 2, 2025–January 17, 2026 <br />
                   Athens
                 </p>
