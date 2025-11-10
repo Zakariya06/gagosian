@@ -18,11 +18,11 @@ export default function RootLayout({
         {/* <link
           href="https://fonts.cdnfonts.com/css/minion-pro"
           rel="stylesheet"
-        ></link>
+        ></link> */}
         <link
           href="https://fonts.cdnfonts.com/css/times-new-roman"
           rel="stylesheet"
-        ></link> */}
+        ></link>
       </head>
       <body className={`antialiased`}>{children}</body>
     </html>

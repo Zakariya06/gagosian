@@ -36,7 +36,7 @@ export default function Header() {
             >
               <Link
                 href="/"
-                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 h-9 whitespace-nowrap"
+                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 h-9 whitespace-nowrap type-gh-lg  navLink"
               >
                 Gagosian
               </Link>
@@ -60,7 +60,7 @@ export default function Header() {
               <li key={item.label} className="mr-[25px] last:mr-0">
                 <Link
                   href={item.href}
-                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9 h-9  navLink"
+                  className="text-[#b2b2b2] hover:text-[#111] duration-300 text-[19px] font-bold leading-9 h-9 type-gh-lg   navLink"
                 >
                   {item.label}
                 </Link>
@@ -79,7 +79,7 @@ export default function Header() {
             >
               <Link
                 href="/"
-                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 whitespace-nowrap"
+                className="text-[#111] hover:text-[#111] duration-500 text-[19px] font-bold leading-9 whitespace-nowrap type-gh-lg   navLink"
               >
                 Gagosian
               </Link>
@@ -92,7 +92,7 @@ export default function Header() {
                 <li key={item.label} className="mr-[25px] last:mr-0">
                   <Link
                     href={item.href}
-                    className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9"
+                    className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9 type-gh-lg   navLink"
                   >
                     {item.label}
                   </Link>
@@ -102,7 +102,7 @@ export default function Header() {
 
             <div className="mr-[25px] last:mr-0 md:hidden flex justify-end">
               <p
-                className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9"
+                className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9 type-gh-lg   navLink"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Menu
@@ -115,7 +115,7 @@ export default function Header() {
       {isOpen && (
         <div className="fixed w-full h-screen px-4 py-1 bg-white left-0 top-0">
           <p
-            className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9 absolute right-4 top-1"
+            className="text-[#b2b2b2] hover:text-[#111] duration-200 text-[19px] font-bold leading-9 absolute right-4 top-1 type-gh-lg   navLink"
             onClick={() => setIsOpen(!isOpen)}
           >
             Close
@@ -143,7 +143,7 @@ export default function Header() {
                 <Link
                   href={item.href}
                   className={cn(
-                    "text-lg text-[#b2b2b2] font-bold w-full",
+                    "text-lg text-[#b2b2b2] font-bold w-full type-gh-lg   navLink",
                     pathName === item.href ? "text-[#111]" : "text-[#b2b2b2]"
                   )}
                 >

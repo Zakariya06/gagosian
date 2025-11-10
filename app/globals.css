@@ -89,7 +89,7 @@ body {
   background: #929292 !important;
   opacity: 1 !important;
   width: auto !important;
-  height: 3px !important;
+  height: 2px !important;
   flex: 1 !important;
   border-radius: 5px !important;
 }
@@ -108,7 +108,7 @@ body {
   font-weight: 700 !important;
 }
 .times-new-roman {
-  font-family: "times-new-roman", serif !important;
+  font-family: "Times New Roman", serif !important;
 }
 .minion-pro {
   font-family: "Minion Pro", serif !important;
@@ -121,11 +121,27 @@ body {
 
 .navLink {
   display: block;
-  transform: scaleY(0.95);
+  font-family: "times-new-roman", serif !important;
 }
 
 .word-spacing {
   word-spacing: -0.03em;
   -moz-font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
   font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
+}
+
+.type-m-sm {
+  word-spacing: -0.03em;
+  -moz-font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
+  font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
+}
+.type-mc-sm,
+.type-mc-xl,
+.type-mc-xs {
+  -moz-font-feature-settings: "onum" 0, "pnum" 1, "kern" 1, "liga" 0;
+  font-feature-settings: "onum" 0, "pnum" 1, "kern" 1, "liga" 0;
+}
+.font-feature-none {
+  -moz-font-feature-settings: "onum" 0, "pnum" 1, "kern" 1, "liga" 0;
+  font-feature-settings: "onum" 0, "pnum" 1, "kern" 1, "liga" 0;
 }
