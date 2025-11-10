@@ -62,7 +62,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Minion Pro", serif;
+  font-family: "Minion Pro";
 }
 .max-w-screen-xl-nopad {
   max-width: 1224px;
@@ -104,8 +104,14 @@ body {
   font-family: GagosianHeadline, Times New Roman, serif;
 }
 .minion-pro-condensed {
-  font-family: "Minion Pro Condensed", serif !important;
+  font-family: "Minion Pro Condensed" !important;
   font-weight: 700 !important;
+}
+.times-new-roman {
+  font-family: "times-new-roman", serif !important;
+}
+.minion-pro {
+  font-family: "Minion Pro", serif !important;
 }
 
 .type-gh-lg {
@@ -116,4 +122,10 @@ body {
 .navLink {
   display: block;
   transform: scaleY(0.95);
+}
+
+.word-spacing {
+  word-spacing: -0.03em;
+  -moz-font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
+  font-feature-settings: "onum" 1, "pnum" 1, "kern" 1, "liga" 0;
 }
