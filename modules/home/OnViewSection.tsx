@@ -17,6 +17,31 @@ const OnViewSection = () => {
             <div className="relative group cursor-pointer">
               <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff90] opacity-0 group-hover:opacity-100 duration-300 "></div>
               <Image
+                src="/media/images/exhibitions/2025/richard-diebenkorn/xtFqo4EHI2Bg_600x600.jpg"
+                alt="richard prince flok songs"
+                className="w-[63%]  h-auto"
+                width={1920}
+                height={1080}
+              />
+
+              <div className="pt-4 text-[#111]">
+                <Link
+                  href="/"
+                  className="text-2xl font-bold  leading-6 minion-pro-condensed "
+                >
+                  Richard Diebenkorn
+                </Link>
+                <p className="mt-2 text-base leading-5 font-light font-serif">
+                  November 8–December 20, 2025 <br />
+                  980 Madison Avenue, New York
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="relative group cursor-pointer">
+              <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff90] opacity-0 group-hover:opacity-100 duration-300 "></div>
+              <Image
                 src="/media/images/exhibitions/2025/richard-prince-folk-songs/eC-zpfV6o3vX_600x600.jpg"
                 alt="richard prince flok songs"
                 className="w-[67%]  h-auto"
